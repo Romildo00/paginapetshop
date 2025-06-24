@@ -247,27 +247,36 @@ span {
   .container-titulo-topo {
     padding: 15px;
   }
-
-  .servicos,
-  .fotos,
-  .marcas,
-  .social,
-  .localizacao {
-    padding: 40px 20px;
+  .fotos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
   }
-
-  .social p {
-    font-size: 20px;
+  .fotos img {
+    width: 100%;
+    height: auto;
   }
+}
 
-  .redes img {
-    height: 35px;
-    width: 35px;
-  }
+.servicos,
+.fotos,
+.marcas,
+.social,
+.localizacao {
+  padding: 40px 20px;
+}
 
-  .localizacao iframe {
-    height: 250px;
-  }
+.social p {
+  font-size: 20px;
+}
+
+.redes img {
+  height: 35px;
+  width: 35px;
+}
+
+.localizacao iframe {
+  height: 250px;
 }
 
 @media screen and (max-width: 768px) {
