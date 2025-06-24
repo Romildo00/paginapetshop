@@ -256,8 +256,18 @@ span {
     width: 100%;
     height: auto;
   }
-}
 
+  .marcas-img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-items: center;
+  }
+  .marcas-img img {
+    width: 100px;
+    height: auto;
+  }
+}
 .servicos,
 .fotos,
 .marcas,
